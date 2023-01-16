@@ -43,10 +43,11 @@ const MyComponent = (/*props*/ {name, age, email, addr}) => {
 }
 
 /* props의 기본값 지정하기 👉 컴포넌트명.defaultProps = {} */
+// props는 자식에서 값이 바뀌면 안 되기 때문에 const로 변수 지정하는 것이 좋다!
 MyComponent.defaultProps = {
     name : "이름없음",
     age : 0,
-    // email : "지정 안 됨",
+    email : "지정 안 됨",
     addr : "서울시" //addr은 전달되지 않지만 기본값
 }
 

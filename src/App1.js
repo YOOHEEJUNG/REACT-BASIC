@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Fragment } from 'react';
 
-function App() {
+function App1() {
 
   const name = "홍길동"; //변수
   const age = 20;
@@ -58,4 +58,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;
