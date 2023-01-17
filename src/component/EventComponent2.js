@@ -17,15 +17,15 @@ const EventComponent2 = () =>{
     }
 
     
-       const handleTopic = (e) =>{
-        //객체 안에서 key를 바꾸는 방법["키"] : 값
+    //    const handleTopic = (e) =>{
+    //     //객체 안에서 key를 바꾸는 방법["키"] : 값
 
-         console.log(e.target.name);
+    //      console.log(e.target.name);
 
-         const copy = {...data, ["topic"] :e.target.value}; //데이터 복사 👉 데이터 형식을 복사해서 데이터 내부의 키에 대한 값만 변경
-         setData(copy);
+    //      const copy = {...data, ["topic"] :e.target.value}; //데이터 복사 👉 데이터 형식을 복사해서 데이터 내부의 키에 대한 값만 변경
+    //      setData(copy);
 
-         }
+    //      }
     
 
     const handleClick = () =>{

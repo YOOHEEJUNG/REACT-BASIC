@@ -31,8 +31,6 @@ const StateComponentQ = () =>{
             <button onClick={() => setNumber(0)}>초기화</button>   
             </>
     )
-
-
 }
 
 export default StateComponentQ;

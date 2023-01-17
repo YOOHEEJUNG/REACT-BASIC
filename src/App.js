@@ -1,21 +1,21 @@
-import { Fragment } from "react"
-import IterationComponent from "./component/IterationComponent";
+import HookEffect from "./hook/HookEffect";
 
 
-const App = () =>{
+const App = () => {
 
-    /*
-     p.180
-     컴포넌트 반복하기
-     map( 콜백(item, index, arr) )
-     */
-
-
+    /* 
+        p.223
+        1. 필수훅
+            useState()
+            컴포넌트에서 상태값을 제어하는 가장 기본이 되는 hook
+        2. useEffect()
+            컴포넌트의 라이프사이클(생명주기)를 다룬다
+            mount, mount이후, state변경될 때, unmount이전에 특정작업을 수행할 수 있다
+    */
     return (
-        <Fragment>
-            <IterationComponent/>
-        </Fragment>
-
+        <>
+            <HookEffect/>
+        </>
     )
 }
 

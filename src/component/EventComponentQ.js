@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-
-
 const EventComponentQ = () =>{
     
     const [food, setFood] = useState("메뉴를 선택하셈");
@@ -11,7 +9,6 @@ const EventComponentQ = () =>{
         setFood(e.target.value);
         // console.log(e.target.value);
     }    
-
 
     return (
         <>
@@ -29,9 +26,6 @@ const EventComponentQ = () =>{
         <p> {food}</p>
         </>
     )
-
-
-
 }
 
 export default EventComponentQ; 
