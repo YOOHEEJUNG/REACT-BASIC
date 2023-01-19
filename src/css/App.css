@@ -1,0 +1,14 @@
+/* css문법 적용 */
+*{padding: 0; margin: 0;}
+
+.app_header {
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.app_article{
+
+    height: 100px;
+    background-color :rgb(250, 233, 212);
+}

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import HookEffect from "./hook/HookEffect";
-import HookEffect_again from "./hook/HookEffect(again)";
-import HookQ2_mine from "./hook/HookQ2(mine)";
+import HookQ from "./hook/HookQ";
+import HookQ2 from "./hook/HookQ2";
 import HookReducer from "./hook/HookReducer";
 import HookReducer2 from "./hook/HookReducer2";
 import HookRef from "./hook/HookRef";
@@ -46,10 +46,9 @@ const App = () => {
 
             {/* 훅실습 */}
             <hr/>
-          
-            <HookQ2_mine/>
+            <HookQ/>
             <hr/>
-            <HookEffect_again/>
+            <HookQ2/>
 
             {/* 리듀서 훅 */}
             <hr/>

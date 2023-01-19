@@ -7,12 +7,9 @@
        import img1 from '../img/img1.png';
 
     2. public 폴더 밑에 넣는 경우 이미지를 바로 참조 가능
-
-
 */
 
 import { useState } from "react";
-
 
 const IterationComponentQ = () => {
 
@@ -41,7 +38,6 @@ const IterationComponentQ = () => {
         const list2 = list.filter(item => item.id == a).map(item => item.src);
         console.log(...list2);
         setList2(list2)
-        
         // const [data, setData] = useState(b);
 
     }
@@ -53,12 +49,10 @@ const IterationComponentQ = () => {
             {/* <img src={img1} alt="제목" width="100"/> */}
             {/* <img src="/img/img1.png"alt="제목" width="100"/> */}
             
-
             <div>
                 <img src={list2} alt="제목" width="300" />
             </div>
             
-           
             <div style={{ display: "flex", justifyContent: "space-around" }}>
                 {/* 반복할 요소의 모형 */}
                 {/* <div>
